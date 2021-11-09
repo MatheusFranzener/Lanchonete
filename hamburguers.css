@@ -366,6 +366,10 @@ ul{
     margin-left: -60px;
 }
 
+.maps:hover{
+    transform: scale(1.2);
+}
+
 .filial{
     margin-bottom: 15px;
     margin-left: 0px;
@@ -376,6 +380,10 @@ ul{
 .maps2{
     width: 220px;
     height: 122px;
+}
+
+.maps2:hover{
+    transform: scale(1.2);
 }
 
 .minhaConta{
