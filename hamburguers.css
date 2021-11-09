@@ -1,0 +1,423 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+   background-color: #f7f7f7;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    width: 100%;
+    background: #f7f7f7;
+    
+}
+
+.logo{
+    width: 88px;
+    height: 48px;
+}
+
+.itensHeader{
+    padding: 13px;
+    font-size: 16.8px;
+}
+
+.entregador{
+    color: #3e3e3e;
+    margin: 0 20px;
+    opacity: 0.7;
+}
+
+.entregador:hover{
+    opacity: 1;
+}
+
+.restaurante{
+    color: #3e3e3e;
+    margin: 0 20px;
+    opacity: 0.7;
+}
+
+.restaurante:hover{
+    opacity: 1;
+}
+
+.carreiras{
+    color: #3e3e3e;
+    margin: 0 20px;
+    opacity: 0.7;
+}
+
+.carreiras:hover{
+    opacity: 1;
+}
+
+.card{
+    color: #3e3e3e;
+    margin: 0 20px;
+    opacity: 0.7;
+}
+
+.card:hover{
+    opacity: 1;
+}
+
+.botao2{
+    color: #fff;;
+    background: #EA1D2C; border:none; outline:none; display:block; height:44px; width:114px; cursor:pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao2:hover{
+    box-shadow:
+                1px 1px black,
+                2px 2px black,
+                3px 3px black;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+.info1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 36px;
+    width: 100%;
+    font-family: "SulSans", Helvetica, sans-serif;
+}
+ 
+.info2{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "SulSans", Helvetica, sans-serif;
+    opacity: 0.7;
+}
+ 
+.barraPesquisa{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+ 
+.icone1{
+    margin: 10px 16px;
+    height: 26px;
+    color: #EA1D2C;
+}
+ 
+.searchbar{
+    padding-top: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:#a6a6a6;
+    font-size: 16px;
+    width: 550px;
+    height: 47px;
+}
+ 
+.botao3{
+    color: #fff;;
+    background: #EA1D2C; border:none; outline:none; display:block; height:49px; width:138.5px; cursor:pointer;
+    border-radius: 5px;
+    margin-left: 7px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao3:hover{
+    box-shadow:
+                1px 1px black,
+                2px 2px black,
+                3px 3px black;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 119px;    
+    margin-top: -70px;
+}
+
+.imgHamburguer1{
+    width: 400px;
+    height: 220px;
+}
+
+.imgHamburguer1:hover{
+    transform: scale(1.2);
+    border-radius: 50px;
+}
+
+.descricao{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.descricao2{
+    color: slategrey;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promocao1{
+    padding: 18px;    
+    width: 440px;
+    border: solid 2px red;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.promocao2{
+    padding: 18px;    
+    width: 440px;
+    border: solid 2px red;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.promocao3{
+    padding: 18px;    
+    width: 440px;
+    border: solid 2px red;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.texto{
+    font-size: 15px;
+    font-family:"Source Sans Pro",sans-serif ;
+    font-weight: 400px;
+    line-height: 1.2;
+    text-decoration: none;
+    color:#00255e ;
+}
+
+.compra {
+    display: table;
+    width: 100%;
+    min-height: 283px;
+    margin: 0;
+    padding: 15px;
+}
+
+.descricao {
+    margin: 0 0 5px;
+    min-height: 36px;
+    max-height: 36px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    overflow: hidden;
+}
+
+.descricao2 {
+    display: flex;
+    align-items: center;
+}
+
+.precos {
+    padding: 10px 0;
+}
+
+.preco2 {
+    color: red;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.acompanhamento {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.pagamento {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.tx {
+    height: 29px;
+}
+
+.taxa {
+    font-size: 15px;
+    font-weight: 600;
+    color: #00255e;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.comprar{
+    color: #fff;;
+    background: #EA1D2C; border:none; outline:none; display:block; height:44px; width:114px; cursor:pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comprar:hover{
+    box-shadow:
+                1px 1px black,
+                2px 2px black,
+                3px 3px black;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+.risco{
+    background-color:#EA1D2C;
+    margin-left: 200px;
+    width: 150px;
+    height: 3px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 455px;
+    padding: 30px 0px;
+   
+}
+ 
+.footerMeio{
+    width: 1140px;
+}
+ 
+.segundoFooterMeio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+ 
+.parte1{
+    width: 195px;
+    height: 100%;
+    font-family:"Source Sans Pro",sans-serif;
+    margin-left: 0px;
+}
+ 
+.institucional{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #808080;
+}
+
+.relacionamento{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #808080;
+}
+
+.social{
+    display: flex;
+}
+
+.matriz{
+    margin-bottom: 15px;
+    margin-left: -60px;
+    font-size: 20px;
+    color: #808080;
+}
+
+.maps{
+    margin-left: -60px;
+}
+
+.filial{
+    margin-bottom: 15px;
+    margin-left: 0px;
+    font-size: 20px;
+    color: #808080;
+}
+
+.maps2{
+    width: 220px;
+    height: 122px;
+}
+
+.minhaConta{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #808080;
+}
+
+.politicas{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #808080;
+}
+ 
+.textoRodape{
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #808080;
+}
+
+.segundoFooter{
+    display: flex;
+    justify-content: center;
+    width: 100%;;
+}
+
+.logoRodape{
+    margin: 30px 20px;
+}
+
+.caixaFooter{
+    width:531px;
+    height:34px;
+    font-size: 13px;
+    color: #808080;
+    margin: 30px;
+}
+
+.textoRodape1{
+    padding: 3px;
+}
+
+.textoRodape2{
+    padding: 3px;
+}
